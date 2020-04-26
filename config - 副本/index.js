@@ -16,9 +16,9 @@ module.exports = {
 		productionGzip: false,
 		productionGzipExtensions: ['js', 'css'],
 		port: 9000,
-        	sellUrl: 'http://127.0.0.1',
-        	openidUrl: 'http://brandon.natapp1.cc/sell/wechat/authorize',
-        	wechatPayUrl: 'http://proxy.springboot.cn//pay?openid=oTgZpwVwNuZIUIERCFbEHcF2esDw'
+        	sellUrl: 'http://sell.com',
+        	openidUrl: 'http://sqmax.natapp1.cc/sell/wechat/authorize',
+        	wechatPayUrl: 'http://sqmax.natapp1.cc/sell/pay/create'
 	},
 	dev: {
 		env: require('./dev.env'),

@@ -62,7 +62,7 @@
                     respones = respones.body;
                     if (respones.code == ERR_OK) {
                       location.href = config.wechatPayUrl +
-                        '?openid=' + getCookie('openid') +
+                        // '?openid=' + getCookie('openid') +
                         '&orderId=' + respones.data.orderId +
                         '&returnUrl=' + encodeURIComponent(config.sellUrl + '/#/order/' + respones.data.orderId);
                     }else {
